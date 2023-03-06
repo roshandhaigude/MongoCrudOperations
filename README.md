@@ -34,13 +34,18 @@ client = MongoClient(connection_link)
 db = Mymongodb(client, db_name)
 
 # Insert a document into the "mycollection" collection
+
 data = {"name": "John", "age": 35}
+
 db.insert(data, "mycollection")
 
 # Update all documents in the "mycollection" collection where the "name" field is "John"
+
 update_dict = {"age": 36}
+
 db.update("name", "John", update_dict, "mycollection")
 
 # Delete all documents in the "mycollection" collection where the "name" field is "John"
+
 db.delete("name", "John", "mycollection")
 
