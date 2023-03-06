@@ -2,13 +2,13 @@
 
 Mymongodb is a Python class that provides a simple interface for working with MongoDB databases.
 
-Installation
+#Installation
 To use Mymongodb, you need to have the pymongo library installed. You can install it using pip:
 
-Copy code
+#Copy code
 pip install pymongo
 
-Usage
+#Usage
 To use Mymongodb, you need to create an instance of the Mymongodb class with a connection link and a database name. You can then use the db() method to get a reference to a specific collection, and the insert(), update(), and delete() methods to manipulate the data in the collection.
 
 Here is an example:
