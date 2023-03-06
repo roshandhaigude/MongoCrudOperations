@@ -25,7 +25,9 @@ from mymongodb import Mymongodb
 
 # Set up the connection to the database
 connection_link = "mongodb://localhost:27017/"
+
 db_name = "mydatabase"
+
 client = MongoClient(connection_link)
 
 # Create an instance of the Mymongodb class
